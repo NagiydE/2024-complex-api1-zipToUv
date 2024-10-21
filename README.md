@@ -1,22 +1,44 @@
-# 📊 Project: Complex API 
+# Current UV Index
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
+## Description
+The Current UV Index application allows users to enter a zip code to retrieve the current UV index for that location. This is helpful for individuals looking to understand UV exposure in their area.
 
-### How to submit your code for review:
+## Features
+- Input a zip code to find the corresponding city and state.
+- Fetch and display the current UV index for the entered location.
+- Simple and user-friendly interface.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- [Zippopotam.us API](http://api.zippopotam.us)
+- [Current UV Index API](https://currentuvindex.com/api)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Getting Started
+
+### Prerequisites
+- A web browser
+- Internet connection
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/2024-complex-api1-zipToUv.git
+2. cd 2024-complex-api1-zipToUv
+3. Open index.html in your web browser to view the project
+
+### Usage
+Enter a zip code in the input field.
+Click the "SEARCH!" button to retrieve the location and current UV index.
+The application will display the city, state, and current UV index.
+
+### API Information
+The application uses the following APIs:
+
+Zippopotam.us API: To fetch city and state information based on the zip code.
+Current UV Index API: To retrieve the UV index using the latitude and longitude obtained from the first API.
+
+### Acknowledgments
+Zippopotam.us for providing location data.
+Current UV Index for providing UV index information.
